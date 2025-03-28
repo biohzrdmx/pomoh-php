@@ -91,8 +91,8 @@ If no pluralization rules are found the default one will be used (`nplurals=2; p
 
 This library includes code from other projects, namely:
 
-- (phpmyadmin/motranslator)[https://github.com/phpmyadmin/motranslator] - GPL Licensed
-- (WordPress/WordPress)[https://github.com/WordPress/WordPress] - GPL Licensed
+- [phpmyadmin/motranslator](https://github.com/phpmyadmin/motranslator) - GPL Licensed
+- [WordPress/WordPress](https://github.com/WordPress/WordPress) - GPL Licensed
 
 ### Licensing
 
