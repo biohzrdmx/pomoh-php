@@ -85,14 +85,14 @@ $string = $translator->pluralize('A fox', '%d foxes', 5);
 
 Pluralization rules are either handled by `ngettext` or directly loaded from the MO file; either way they are language dependent.
 
-if no pluralization rules are found the default one will be used (`nplurals=2; plural=n == 1 ? 0 : 1;`).
+If no pluralization rules are found the default one will be used (`nplurals=2; plural=n == 1 ? 0 : 1;`).
 
 ### Acknowledgements
 
 This library includes code from other projects, namely:
 
-- phpmyadmin/motranslator - GPL Licensed <https://github.com/phpmyadmin/motranslator>
-- WordPress/WordPress - GPL Licensed <https://github.com/WordPress/WordPress>
+- (phpmyadmin/motranslator)[https://github.com/phpmyadmin/motranslator] - GPL Licensed
+- (WordPress/WordPress)[https://github.com/WordPress/WordPress] - GPL Licensed
 
 ### Licensing
 
