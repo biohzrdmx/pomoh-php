@@ -22,7 +22,7 @@ class Translation {
 
     public function getHeader(string $header, string $default = ''): string {
         if (! $this->loaded ) $this->load();
-        return $this->strings[$header] ?? $default;
+        return $this->headers[$header] ?? $default;
     }
 
     public function translate(string $string): string {
